@@ -193,26 +193,5 @@ nav ul {
     color: white;
 }
 
-.nestedFlex {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    padding: 5px;
-    margin: 5px;
-    gap: 5%;
-    align-items: stretch;
-    height: 10%;
-}
-
-.card {
-    width: 50%;
-    height: 200px;
-    border: 4px solid lightslategray;
-    align-self: center;
-    background: #f0ebeb;
-    box-shadow: 0 7px 8px 0 rgba(0, 0, 0, 0.5);
-    text-align: center;
-    font-family: arial;
-}
 
 
