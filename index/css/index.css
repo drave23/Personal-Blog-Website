@@ -1,0 +1,108 @@
+@import "card.css";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import "footer.css";
+
+
+.container, html, body {
+    height: 100%;
+    font-style: italic;
+
+}
+
+#menu {
+    width: 100%;
+}
+
+#left {
+    float: left;
+    width: 50px;
+}
+
+#right {
+    float: right;
+    width: 50px;
+}
+
+#center {
+    margin: auto;
+    width: 50px;
+}
+
+.box {
+    border: 1px solid lavender;
+    background: lightsteelblue;
+}
+
+.header {
+    grid-area: hd;
+    padding-top: auto;
+}
+
+.footer {
+    grid-area: ft;
+    text-align: center;
+}
+
+.content {
+    grid-area: main;
+    background: white;
+    background: center;
+    background-image: url("../../images/car.jpg");
+
+}
+
+.container-context {
+    display: grid;
+    grid-template-rows: 0.1fr 0.8fr 0.1fr;
+    justify-content: center;
+
+}
+
+.nestedFlex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10%;
+    align-items: stretch;
+    height: 150%;
+}
+
+
+.title {
+    text-decoration-line: underline;
+    color: blue;
+    font-size: 22px;
+    height: 8%;
+
+
+}
+
+.subscribeDetails {
+    display: inline-flex;
+    flex-direction: row;
+    border: 1px solid darkblue;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.date {
+    color: lightslategray;
+    font-size: 18px;
+    height: 2%;
+    line-height: 0;
+}
+
+.readBlog {
+    line-height: 6;
+}
+
+
+.ImageCaption {
+    width: 150px;
+    height: 80px;
+
+}
+
+
+
+
