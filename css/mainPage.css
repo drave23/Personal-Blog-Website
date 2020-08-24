@@ -1,24 +1,25 @@
 
-.container {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    grid-template-rows: 0.8fr 3fr 3.8fr auto;
-    grid-template-areas: "hd hd hd hd hd hd hd hd" " main main main main main main main main" " main main main main main main main main" "ft ft ft ft ft ft ft ft";
-    padding: 10px;
-    font-style: italic;
-!important;
+.container, html, body {
+    height: 100%;
 }
 
-@media (max-width: 900px) {
-    .container {
-        grid-template-columns: auto auto auto;
-        grid-template-rows: auto auto auto auto;
-        grid-template-areas: "hd  hd " "main main  " "main main  " "ft ft  ";
-    }
 
-    nav ul {
-        display: flex;
-        justify-content: space-between;
+@media (max-width: 350px) {
+    .container {
+        display: grid;
+        grid-template-areas: "hd hd  " " main main   " " main main   " " main main   " "ft ft  ";
+        padding: 2px;
+        height: 270%;
+    }
+}
+
+@media (  max-width: 500px) {
+    .container {
+        display: grid;
+        grid-template-areas: "hd hd  " " main main   " " main main   " " main main   " "ft ft  ";
+        padding: 2px;
+        height: 10%;
+
     }
 }
 
@@ -60,7 +61,7 @@
     grid-area: main;
     background: white;
     background: center;
-    background-image: url("photos/car.jpg");
+    background-image: url("../images/car.jpg");
 
 }
 
@@ -135,7 +136,11 @@
 }
 
 
+.ImageCaption {
+    width: 150px;
+    height: 80px;
 
+}
 
 
 
