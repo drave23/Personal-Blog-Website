@@ -5,14 +5,12 @@
 .wrapper, html, body {
     height: 100%;
     font-style: italic;
-!important;
 }
 
 .wrapper {
     margin: 0 auto;
     height: 100%;
     font-style: italic;
-!important;
 
 }
 
@@ -35,9 +33,6 @@ nav ul {
     justify-items: center;
     align-items: center;
     border: 0px solid rgba(119, 107, 118, 0.25);
-!important;
-
-
 }
 
 .content {
@@ -45,7 +40,6 @@ nav ul {
     position: relative;
     border: 0px solid rgba(119, 107, 118, 0.25);
 !important;
-
 
 }
 
@@ -117,7 +111,6 @@ nav ul {
 
 }
 
-
 .next {
     text-decoration: none;
     display: inline-block;
@@ -129,7 +122,6 @@ nav ul {
     background-color: #5667af;
     color: white;
 }
-
 
 .previous {
     text-decoration: none;
