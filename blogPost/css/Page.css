@@ -1,6 +1,6 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
-@import url('navigation.css')  ;
-@import url('content-text.css') ;
+@import url('navigation.css');
+@import url('content-text.css');
 
 * {
     box-sizing: unset;
@@ -90,8 +90,6 @@ nav ul {
 }
 
 
-
-
 .fa {
     padding: 10px;
     font-size: 15px;
@@ -131,15 +129,11 @@ nav ul {
         justify-content: space-between;
     }
 }
+
 @media (min-width: 700px) {
     .wrapper {
-        grid-template-columns: 1fr 6fr 1fr;
-        grid-template-rows: 8% 2fr 2fr 8%;
-        grid-template-areas: "header header  header" "leftside    content sidebar" "leftside    content ad" "footer footer  footer"
-    }
 
-    nav ul {
-        flex-direction: column;
+        grid-template-areas: "header header  header" "leftside    content sidebar" "leftside    content ad" "leftside footer  footer"
     }
 
 }
