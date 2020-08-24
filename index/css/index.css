@@ -1,10 +1,12 @@
 @import "card.css";
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
 @import "footer.css";
 
 
 .container, html, body {
     height: 100%;
+    width: 100%;
+!important;
     font-style: italic;
 
 }
@@ -36,6 +38,7 @@
 .header {
     grid-area: hd;
     padding-top: auto;
+
 }
 
 .footer {
@@ -54,6 +57,7 @@
 .container-context {
     display: grid;
     grid-template-rows: 0.1fr 0.8fr 0.1fr;
+
     justify-content: center;
 
 }
@@ -63,8 +67,9 @@
     flex-direction: row;
     justify-content: space-between;
     gap: 10%;
-    align-items: stretch;
+    align-items: center;
     height: 150%;
+
 }
 
 
@@ -93,7 +98,7 @@
 }
 
 .readBlog {
-    line-height: 6;
+    line-height: 8;
 }
 
 
@@ -103,6 +108,20 @@
 
 }
 
+@media (max-width: 575px) {
+    .wrapper {
+        grid-template-columns: 50% 50%;
+        grid-template-areas: "hd hd " "main   main  " "main  main   " "main  main   "
+    }
 
+    .nestedFlex {
+        gap: 0%;
+    }
+
+
+    .subscribeDetails {
+        display: none;
+    }
+}
 
 
